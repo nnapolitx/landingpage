@@ -17,3 +17,40 @@ ul {
     margin-bottom: 5em;
     padding: 1em 10em;
 }
+
+.sec1 {
+    display: flex;
+    padding: 1em 10em;
+}
+
+.conleft {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0;
+}
+
+.conleft > *{
+    margin: 0;
+}
+
+.conright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.signup {
+    max-width: 8em;
+    padding: .5em 1em;
+    margin-top: 2em;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
