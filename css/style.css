@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Courier New', Courier
 }
 
 ul {
@@ -8,7 +9,17 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 1em;
+    gap: 2.5em;
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0em 10em;
+    padding-bottom: 5em;
+    background-color: #1f2937;
+    font-size: 1.125em;
+    color: #e5e7eb;
 }
 
 .header {
@@ -18,10 +29,17 @@ ul {
     padding: 1em 10em;
 }
 
-.sec1 {
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.container {
     display: flex;
-    padding: 1em 10em;
-    margin-bottom: 5em;
+    justify-content: center;
+    align-items: center;
+    padding: 0em 10em;
+    gap: 3em;
 }
 
 .conleft {
@@ -35,17 +53,33 @@ ul {
     margin: 0;
 }
 
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.subhero {
+    font-size: 1.125em;
+    color: #e5e7eb;
+}
+
 .conright {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
+    border: 2px solid red;
 }
 
 .signup {
     max-width: 8em;
     padding: .5em 1em;
-    margin-top: 2em;
+    margin-top: 1em;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-style: none;
+    border-radius: 25px;
 }
 
 .sec2 {
