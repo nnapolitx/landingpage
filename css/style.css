@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Courier New', Courier
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul {
@@ -31,6 +31,7 @@ ul {
 
 .logo {
     font-size: 24px;
+    font-weight: 500;
     color: #f9faf8;
 }
 
@@ -69,7 +70,8 @@ ul {
     justify-content: center;
     align-items: center;
     width: 50%;
-    border: 2px solid red;
+    background-color: rgba(255, 255, 255, .2);
+    padding: 4em;
 }
 
 .signup {
