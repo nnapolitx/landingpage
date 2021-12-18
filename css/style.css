@@ -20,6 +20,7 @@ ul {
     background-color: #1f2937;
     font-size: 1.125em;
     color: #e5e7eb;
+    margin-bottom: 2em;
 }
 
 .header {
@@ -31,7 +32,7 @@ ul {
 
 .logo {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     color: #f9faf8;
 }
 
@@ -90,11 +91,16 @@ ul {
     justify-content: center;
     align-items: center;
     margin-bottom: 5em;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .cardcontainer {
     display: flex;
     gap: 2em;
+    font-size: 18px;
+    font-weight: normal;
 }
 
 .card {
@@ -103,7 +109,8 @@ ul {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 15em
+    width: 15em;
+    row-gap: 1em;
 }
 
 .image {
