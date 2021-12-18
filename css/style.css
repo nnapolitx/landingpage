@@ -199,3 +199,97 @@ p {
     padding-top: 2em;
     padding-bottom: 2em;
 }
+
+/* mobile optimization starts here */
+
+@media (max-width: 70em) {
+    
+    body > *{
+        margin: 0em;
+        padding: 0em;
+    }
+
+    .sec1 {
+        display: flex;
+        flex-direction: column;
+        margin: 1em 0em;
+        padding: 0em;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        margin: 1em 0em;
+        padding: 0em 1em;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo {
+        margin-bottom: 1em;
+        padding: 0em;
+        font-size: 18px;
+    }
+
+    ul {
+        margin: 0em;
+        padding: 0em;
+        width: 100%;
+        font-size: 16px;
+        justify-content: center;
+    }
+
+    .container {
+        margin: 0em;
+        padding: 0em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .conleft {
+        margin: 0em 1em;
+        padding: 0em;
+        font-size: 16px;
+        margin-bottom: 0em;
+        width: 90%;
+        justify-content: center;
+    }
+
+    .conright {
+        margin-bottom: 2em;
+        padding: 2em;
+    }
+
+    .hero {font-size: 24px;}
+
+    .sec2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0em 0em;
+        padding: 0em;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .cardcontainer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        row-gap: 1em;
+    }
+
+    .sec3 {
+        display: flex;
+        flex-direction: column;
+        margin: 1em 0em;
+        padding: 0em;
+        justify-content: center;
+        text-align: center;
+    }
+}
+/* change font sizing,  */
