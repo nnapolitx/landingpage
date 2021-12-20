@@ -20,7 +20,7 @@ p {
 .sec1 {
     display: flex;
     flex-direction: column;
-    padding: 0em 10em;
+    padding: 0em 0em;
     padding-bottom: 5em;
     background-color: #1f2937;
     font-size: 1.125em;
@@ -32,7 +32,7 @@ p {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5em;
-    padding: 1em 10em;
+    padding: 1em 2em;
 }
 
 .logo {
@@ -45,7 +45,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0em 10em;
+    padding: 0em 2em;
     gap: 3em;
 }
 
@@ -137,7 +137,7 @@ p {
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
-    padding: 2.5em 13.25em;
+    padding: 2.5em 5em;
     background-color: #e5e7eb;
 }
 
@@ -146,6 +146,11 @@ p {
     font-size: 18px;
     font-weight: bold;
     font-style: normal;
+    padding-right: 10em;
+}
+
+.quote {
+    padding: .25em 2em;
 }
 
 .sec4 {
@@ -182,10 +187,10 @@ p {
 }
 
 .action {
-    max-width: 8em;
-    padding: .5em 2em;
-    margin-top: 0em;
-    margin-right: 5em;
+    width: 8em;
+    padding: .5em 1.5em;
+    flex-shrink: 0;
+    margin: 0em 5em;
     background-color: #3882f6;
     color: #f9faf8;
     border: 2px solid #f9f9f9;
