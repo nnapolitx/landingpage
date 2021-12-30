@@ -12,6 +12,10 @@ ul {
     gap: 2.5em;
 }
 
+a {
+    text-decoration: none;
+}
+
 p {
     margin: 0em;
     padding: 0em;
@@ -40,7 +44,7 @@ p {
 .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20%;
+    margin-bottom: 12%;
     padding: 1em 2em;
     background-color: rgba(255, 255, 255, .55);
 }
@@ -50,18 +54,37 @@ p {
     font-weight: 600;
 }
 
+a: hover {
+    color: #679b44;
+}
+
+}
+
 .container {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 0em 2em;
+    justify-content: space-between;
+    padding: 0em 0em;
 }
 
 .conleft {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
+    text-align: center;
+    color: black;
+    background-color: rgba(255, 255, 255, .4);
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
 
+.conright {
+    width: 40%;
+}
+
+.van {
+    max-width: 400px;
+    opacity: .5;
 }
 
 .conleft > *{
@@ -74,19 +97,8 @@ p {
 }
 
 .subhero {
-    font-size: 1.125em;
+    font-size: 24px;
 }
-
-/* .conright {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    background-color: rgba(255, 255, 255, .2);
-    padding: 4em;
-}
-------------I took this out but will possibly add a semi transparent image here.  
-*/
 
 .signup {
     max-width: 8em;
@@ -101,7 +113,6 @@ p {
     font-size: 24px;
     font-weight: 900;
     align-self: center;
-
 }
 
 .sec2 {
@@ -273,6 +284,8 @@ p {
         margin-bottom: 0em;
         width: 90%;
         justify-content: center;
+        border-radius: 20px;
+        
     }
 
     .conright {
@@ -280,11 +293,17 @@ p {
         padding: 2em;
     }
 
+    .van {
+        max-width: 100%;
+    }
+
     .signup {
         font-size: 18px;
     }
 
     .hero {font-size: 24px;}
+
+    .subhero { font-size: 16px;}
 
     .sec2 {
         display: flex;
