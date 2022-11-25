@@ -14,6 +14,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: black
 }
 
 p {
@@ -24,7 +25,7 @@ p {
 /* background for section 1 */
 
 .sec1 {
-    background: /* linear-gradient(180deg, rgba(210,255,100, .1), rgba(255, 255, 255, .25)) no-repeat fixed, */ url(../img/airial.jpg) no-repeat center fixed;
+    background: url(../img/airial.jpg) no-repeat center fixed;
     background-size: cover;
 
 }
@@ -44,7 +45,7 @@ p {
 .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 12%;
+    margin-bottom: 7%;
     padding: 1em 2em;
     background-color: rgba(255, 255, 255, .55);
 }
@@ -54,15 +55,10 @@ p {
     font-weight: 600;
 }
 
-a: hover {
-    color: #679b44;
-}
-
-}
-
 .container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
     padding: 0em 0em;
 }
 
@@ -76,6 +72,8 @@ a: hover {
     align-items: center;
     justify-content: center;
     border-radius: 50px;
+    margin-right: auto;
+    padding: 1em 0em;
 }
 
 .conright {
@@ -144,9 +142,11 @@ a: hover {
 }
 
 .image {
-    border: 2px solid #3882f6;
-    height: 10em;
-    width: 10em;
+    max-width: 400px;
+}
+
+img {
+    max-width: 100%;
 }
 
 .sec3 {
@@ -157,9 +157,13 @@ a: hover {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    color: #1f2937;
+    color: #1f3724;
     padding: 2.5em 5em;
-    background-color: #e5e7eb;
+    background: url(../img/hilllake.jpg) no-repeat center fixed;
+}
+
+.sec3 h2 {
+    background: rgba(255, 255, 255, .6);
 }
 
 .person {
@@ -168,10 +172,12 @@ a: hover {
     font-weight: bold;
     font-style: normal;
     padding-right: 10em;
+    background: rgba(255, 255, 255, .6);
 }
 
 .quote {
     padding: .25em 2em;
+    background: rgba(255, 255, 255, .6);
 }
 
 .sec4 {
@@ -183,7 +189,7 @@ a: hover {
 }
 
 .cta {
-    background-color: #3882f6;
+    background-color: #679b44;;
     color: #f9faf8;
     width: 100%;
     display: flex;
@@ -212,7 +218,7 @@ a: hover {
     padding: .5em 1.5em;
     flex-shrink: 0;
     margin: 0em 5em;
-    background-color: #3882f6;
+    background-color: black;
     color: #f9faf8;
     border: 2px solid #f9f9f9;
     border-radius: 10px;
@@ -225,9 +231,10 @@ a: hover {
     align-items: center;
     font-size: 18px;
     color: #f9faf8;
-    background-color: #1f2937;
+    background-color: #1d2c13;;
     padding-top: 2em;
     padding-bottom: 2em;
+    text-align: center;
 }
 
 /* mobile optimization starts here */
@@ -238,6 +245,8 @@ a: hover {
         margin: 0em;
         padding: 0em;
     }
+
+    h2 {font-size: 24px;}
 
     .sec1 {
         display: flex;
@@ -329,12 +338,18 @@ a: hover {
         display: flex;
         flex-direction: column;
         margin: 1em 0em;
-        padding: 2px;
+        padding: 5px;
         justify-content: center;
         text-align: center;
+
     }
 
-    .quote { font-size: 24px;}
+    .quote { 
+        font-size: 24px;
+        padding-bottom: 1em;
+    }
+
+    .person { margin-left: 1em;}
 
     .sec4 {
         display: flex;
